@@ -1,6 +1,6 @@
 # Face-mask-detector
 This project is an idea that popped up when COVID-19 pandemic was spreading violently. When offline classes were about to start at our college, me and my professor worked on a code to monitor the students and allow only those who wore masks. This involved analysing the real-time data with the help of the model and approve entry only if the students have masks and deny if they don't. I would like to appreciate and thank my professor Prasad who helped me to complete this project.
-
+# Breakdown of what the code does
 Import necessary packages, including TensorFlow, OpenCV, and imutils for video handling and image processing.
 
 Define a function called detect_and_predict_mask that takes a frame, a face detection model (faceNet), and a face mask detection model (maskNet) as input. This function detects faces in the frame, extracts them, and then uses the maskNet to predict whether the detected faces are wearing masks or not.
